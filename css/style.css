@@ -1,0 +1,46 @@
+/* --- Import Google Fonts  --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Import components files --- */
+@import url("components/containers.css");
+@import url("components/avatar.css");
+@import url("components/buttons.css");
+@import url("components/banners.css");
+@import url("components/cards.css");
+/* --- TODO: import your new components; --- */
+
+
+/* --- Basic styles for fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background: #F7F9FC;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+  margin-top: 50px;
+}
+a {
+  color: #444;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+}
+.text-center {
+  text-align: center;
+}
+
+body { 
+  background: #;
+  font-family: helvetica; 
+  color: #444;
+	h1 {
+		font-weight: lighter;
+		font-size:65px;
+		text-align:center;
+		padding:0;
+		margin:0;
+		margin-top:20px;
+	}
+}

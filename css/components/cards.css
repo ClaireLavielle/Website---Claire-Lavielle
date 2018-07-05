@@ -1,0 +1,41 @@
+.cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card-user {
+	background: white;
+	justify-content: space-between;
+	margin: 10px;
+	border-radius: 4px;
+  	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+  	padding: 30px;
+  	display: flex;
+  	align-items: center;
+  	flex: 1 1 300px;
+}
+
+.card-user:hover {
+	box-shadow: 0 15px 35px rgba(199, 44, 72, 0.6);
+}
+
+.card-user-infos {
+	flex-grow: 1;
+	padding-left: 20px;
+}
+
+.card-user-infos h3 {
+	margin-top: 0px;
+}
+
+.card-user-infos p {
+	margin-bottom: 0px;
+}
+
+
+.background {
+	background:url(../../images/profile.jpg);
+	width: 100px;
+	height: 100px;
+}
